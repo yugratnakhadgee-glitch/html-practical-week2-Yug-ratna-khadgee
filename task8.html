@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Media Hub</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <style>
+    h1 { font-family: 'Poppins', sans-serif; color: #4682B4; }
+    iframe, video, audio { display: block; margin-bottom: 20px; max-width: 100%; }
+  </style>
+</head>
+<body>
+  <h1>My Media Hub</h1>
+
+  <h2>YouTube Video</h2>
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    title="YouTube video" frameborder="0" allowfullscreen></iframe>
+
+  <h2>Local Video</h2>
+  <!-- Replace these sources with your own local video files -->
+  <video width="480" controls>
+    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+
+  <h2>Audio Clip</h2>
+  <!-- Replace with your own local audio file -->
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <h2>Google Map - PCPS College, Kupondole</h2>
+  <iframe
+    src="https://www.google.com/maps?q=PCPS+College+Kupondole+Lalitpur&output=embed"
+    width="600" height="400" style="border:0;" allowfullscreen loading="lazy">
+  </iframe>
+
+  <h2>Embedded External Webpage</h2>
+  <iframe src="https://www.wikipedia.org" width="600" height="300" title="Wikipedia"></iframe>
+
+  <h2>Embedded PDF</h2>
+  <!-- Replace with your own PDF file path -->
+  <embed src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" type="application/pdf" width="600" height="400">
+</body>
+</html>
